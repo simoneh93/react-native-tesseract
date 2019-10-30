@@ -1,5 +1,9 @@
 # react-native-tesseract
 
+## Currently work in progress
+
+This software should not be used in production as it is currently under development, for example, no API structure has been agreed. 
+
 ## Getting started
 
 `$ npm install react-native-tesseract --save`
