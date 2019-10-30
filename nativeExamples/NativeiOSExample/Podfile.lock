@@ -1,0 +1,21 @@
+PODS:
+  - TesseractOCRiOS (4.0.0)
+
+DEPENDENCIES:
+  - TesseractOCRiOS (from `https://github.com/chaoskyme/Tesseract-OCR-iOS.git`)
+
+EXTERNAL SOURCES:
+  TesseractOCRiOS:
+    :git: https://github.com/chaoskyme/Tesseract-OCR-iOS.git
+
+CHECKOUT OPTIONS:
+  TesseractOCRiOS:
+    :commit: 05a6a5e2cb18060d2f728bfc8db9ba89d63eab28
+    :git: https://github.com/chaoskyme/Tesseract-OCR-iOS.git
+
+SPEC CHECKSUMS:
+  TesseractOCRiOS: 729989db3984bb60ba3addb053569b172d48c409
+
+PODFILE CHECKSUM: 3fc188da5bbe4edddff190eca44b6b234a20aae6
+
+COCOAPODS: 1.7.5
