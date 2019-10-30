@@ -14,7 +14,8 @@
 		804DAA1A2369B16100602437 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 804DAA192369B16100602437 /* Assets.xcassets */; };
 		804DAA1D2369B16100602437 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 804DAA1C2369B16100602437 /* Preview Assets.xcassets */; };
 		804DAA202369B16100602437 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 804DAA1E2369B16100602437 /* LaunchScreen.storyboard */; };
-		804DAA292369B48300602437 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804DAA282369B48300602437 /* test.swift */; };
+		804DAA2B2369EFAD00602437 /* Tesseract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804DAA2A2369EFAD00602437 /* Tesseract.swift */; };
+		804DAA36236A19BA00602437 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 804DAA35236A19BA00602437 /* tessdata */; };
 		C91895F55D141371DC2BD36A /* Pods_NativeiOSExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD32B4DD87537F82A96A43E3 /* Pods_NativeiOSExample.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,7 +32,8 @@
 		804DAA1F2369B16100602437 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		804DAA212369B16100602437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		804DAA272369B2FB00602437 /* NativeiOSExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NativeiOSExample-Bridging-Header.h"; sourceTree = "<group>"; };
-		804DAA282369B48300602437 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		804DAA2A2369EFAD00602437 /* Tesseract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tesseract.swift; sourceTree = "<group>"; };
+		804DAA35236A19BA00602437 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; name = tessdata; path = ../../../../../Documents/tessdata; sourceTree = "<group>"; };
 		FD32B4DD87537F82A96A43E3 /* Pods_NativeiOSExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NativeiOSExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -85,6 +87,7 @@
 		804DAA0F2369B15F00602437 /* NativeiOSExample */ = {
 			isa = PBXGroup;
 			children = (
+				804DAA35236A19BA00602437 /* tessdata */,
 				804DAA102369B15F00602437 /* AppDelegate.swift */,
 				804DAA122369B15F00602437 /* SceneDelegate.swift */,
 				804DAA172369B15F00602437 /* ContentView.swift */,
@@ -94,7 +97,7 @@
 				804DAA142369B15F00602437 /* NativeiOSExample.xcdatamodeld */,
 				804DAA1B2369B16100602437 /* Preview Content */,
 				804DAA272369B2FB00602437 /* NativeiOSExample-Bridging-Header.h */,
-				804DAA282369B48300602437 /* test.swift */,
+				804DAA2A2369EFAD00602437 /* Tesseract.swift */,
 			);
 			path = NativeiOSExample;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				804DAA202369B16100602437 /* LaunchScreen.storyboard in Resources */,
+				804DAA36236A19BA00602437 /* tessdata in Resources */,
 				804DAA1D2369B16100602437 /* Preview Assets.xcassets in Resources */,
 				804DAA1A2369B16100602437 /* Assets.xcassets in Resources */,
 			);
@@ -222,10 +226,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				804DAA2B2369EFAD00602437 /* Tesseract.swift in Sources */,
 				804DAA112369B15F00602437 /* AppDelegate.swift in Sources */,
 				804DAA132369B15F00602437 /* SceneDelegate.swift in Sources */,
 				804DAA182369B15F00602437 /* ContentView.swift in Sources */,
-				804DAA292369B48300602437 /* test.swift in Sources */,
 				804DAA162369B15F00602437 /* NativeiOSExample.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,6 +372,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"NativeiOSExample/Preview Content\"";
 				DEVELOPMENT_TEAM = TKPRV8XH8G;
+				ENABLE_BITCODE = NO;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = NativeiOSExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -389,6 +394,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"NativeiOSExample/Preview Content\"";
 				DEVELOPMENT_TEAM = TKPRV8XH8G;
+				ENABLE_BITCODE = NO;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = NativeiOSExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
