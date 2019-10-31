@@ -42,9 +42,3 @@ There is a React Native example application, which can be found inside the 'exam
   	```
 
 
-## Usage
-```javascript
-import Tesseract from 'react-native-tesseract';
-
-Tesseract;
-```
