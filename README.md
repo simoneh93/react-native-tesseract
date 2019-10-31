@@ -4,9 +4,20 @@
 
 This software should not be used in production as it is currently under development, for example, no API structure has been agreed. 
 
-## Example application
+## React Native example application 
 
 There is a React Native example application, which can be found inside the 'example' directory. This project demonstrates how to use the react-native-tesseract API.  
+
+## Native example applications
+
+### iOS
+
+There is an example, native iOS application found within the 'nativeExamples/NativeiOSExample' directory. 
+
+
+### Android
+
+There is an example, native android application found within the 'nativeExamples/NativeAndroidExample' directory. 
 
 ## Getting started
 
