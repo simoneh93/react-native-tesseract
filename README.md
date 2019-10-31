@@ -42,6 +42,5 @@ This software should not be used in production as it is currently under developm
 ```javascript
 import Tesseract from 'react-native-tesseract';
 
-// TODO: What to do with the module?
 Tesseract;
 ```
